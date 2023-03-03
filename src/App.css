@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.news{
+  display: flex;
+justify-content: space-around;margin: 20px 20px;
+background-color: rgb(219, 230, 240);
+border-radius: 8px;
+height: auto;
+}
+img{
+  width: 600px;
+  height: 400px;
+  margin: 10px 10px;
+  border-radius: 8px;
+}
+
+p{
+  font-size: larger;
+}
+h4{
+  font-size: xx-large;
+ color: rgb(110, 72, 72);
+  font-family: 'Abril Fatface', cursive;
+}
+h5{
+  font-family: 'Abril Fatface', cursive;
+  font-size: larger;
+}
